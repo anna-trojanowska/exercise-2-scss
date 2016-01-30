@@ -1,0 +1,29 @@
+@mixin button($color) {
+	background-color: $color;
+    border-radius: 100%;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px #888888;
+    display: inline-block;
+    vertical-align: center;
+    padding: 1.6em;
+    margin: 0.5em;
+    
+}
+  
+@mixin icon($color) {
+	color: $color;
+ 	font-size: 2em;
+}
+
+@mixin title($color) {
+	text-align: center;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: 700;
+	font-size: 3.5em;
+	line-height: 1.3154;
+	text-transform: uppercase;
+	padding-bottom: .5em;
+    padding-top: 1em;
+	color: $color;
+    text-shadow: 2px 2px 2px #888888;
+}
