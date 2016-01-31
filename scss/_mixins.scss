@@ -4,10 +4,9 @@
     text-decoration: none;
     box-shadow: 2px 2px 2px #888888;
     display: inline-block;
-    vertical-align: center;
-    padding: 1.6em;
+    vertical-align: middle;
+    padding: 1.2em;
     margin: 0.5em;
-    
 }
   
 @mixin icon($color) {
